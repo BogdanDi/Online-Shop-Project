@@ -1,0 +1,100 @@
+
+
+/*section#4*/
+.section4 {
+	position: relative;
+	height: auto;
+	width: 100%;
+	//border: 1px solid blue;
+	margin: 30px 0px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #d58e32;
+	//border-bottom: 4px solid #e2e2e2;
+}
+.n_left {
+	height: 36px;
+	width: 365px;
+	//border: 1px solid orange;
+
+	//border-bottom: 4px solid #e2e2e2;
+
+    background-image: linear-gradient(top, transparent 32px,#e2e2e2 4px, #e2e2e2 100%);
+    background-image: -webkit-linear-gradient(top, transparent 32px,#e2e2e2 4px, #e2e2e2 100%);
+    background-image: -moz-linear-gradient(top, transparent 32px,#e2e2e2 4px, #e2e2e2 100%);
+    background-image: -ms-linear-gradient(top, transparent 32px,#e2e2e2 4px, #e2e2e2 100%);
+    background-image: -o-linear-gradient(top, transparent 32px,#e2e2e2 4px, #e2e2e2 100%);
+}
+.nf_nav {
+	height: 36px;
+	//height: 100%;
+	//border-bottom: 4px solid #e2e2e2;
+	//background: linear-gradient(0deg, transparent 49%, #000 100%, transparent 51%);
+	z-index: -1;
+
+    background-image: linear-gradient(top, transparent 32px,#e2e2e2 4px, #e2e2e2 100%);
+    background-image: -webkit-linear-gradient(top, transparent 32px,#e2e2e2 4px, #e2e2e2 100%);
+    background-image: -moz-linear-gradient(top, transparent 32px,#e2e2e2 4px, #e2e2e2 100%);
+    background-image: -ms-linear-gradient(top, transparent 32px,#e2e2e2 4px, #e2e2e2 100%);
+    background-image: -o-linear-gradient(top, transparent 32px,#e2e2e2 4px, #e2e2e2 100%);
+}
+.nf_nav_ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.nf_nav_ul li {
+	float: left;
+}
+.nf_nav_ul li div{
+	height:
+	36px;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 0px 0px 12px 0px;
+	margin: 0px 16px 0px 16px;
+	text-decoration: none;
+	font-size: 15px;
+}
+.nf_nav_ul li div:hover, .nf_nav{
+	//margin-bottom: -8px;
+}
+.section4 .nf_nav_ul li div:hover{
+	border-bottom: 4px solid #d58e32;
+}
+.nf_line {
+	height: 36px;
+	width:480px;
+	//height: 100%;
+	//border-bottom: 4px solid #e2e2e2;
+
+    background-image: linear-gradient(top, transparent 32px,#e2e2e2 4px, #e2e2e2 100%);
+    background-image: -webkit-linear-gradient(top, transparent 32px,#e2e2e2 4px, #e2e2e2 100%);
+    background-image: -moz-linear-gradient(top, transparent 32px,#e2e2e2 4px, #e2e2e2 100%);
+    background-image: -ms-linear-gradient(top, transparent 32px,#e2e2e2 4px, #e2e2e2 100%);
+    background-image: -o-linear-gradient(top, transparent 32px,#e2e2e2 4px, #e2e2e2 100%);
+}
+.nf_dotts {
+	position: absolute;
+	top: 10px;
+	right: -15px;
+	margin: top: 10px;
+	width: 111px;
+	height: 36px;
+	}
+.nf_dotts div {
+	height: 14px;
+	width: 14px;
+	background-color: #e2e2e2;
+	border-radius: 7px;
+	margin: 7px;
+	margin-top: 16px;
+}
+.the_nf_line {
+	width: 280px;
+}
+.rw .shop_cart_main {
+	margin-right: 21px;
+}

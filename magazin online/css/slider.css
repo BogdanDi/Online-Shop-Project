@@ -1,0 +1,103 @@
+
+/*SLIDER*/
+.carousel {
+ 	height: 505px;
+ 	width:750px;
+ 	//border: 1px solid black;
+	//position: relative;
+ }
+ .slider_wrapper {
+ 	height: 465px;
+ 	width:750px;
+	overflow: hidden;
+ }
+.slider-img{
+	display: inline;
+	height: 465px;
+ 	width:750px;
+}
+.slider-img-div {
+	height: 465px;
+ 	width:750px;
+}
+ .slider-list {
+	width: 3040px;
+	
+}
+
+.displacemen_carousel1 {
+	height: 145px;
+	width: 100%;
+	background-color: #cccccc;
+	opacity: 0.4;
+}
+.cont_carousel {
+	height: 215px;
+	width: 100%;
+	background-color: #666666;
+	opacity: 0.9;
+}
+.cont_carousel h1 {
+	width: 100%;
+	height: auto;
+	font-size: 50px;
+	margin-top: 65px;
+	padding: 0 13.5%;
+	color: white;
+}
+.cont_carousel h1 span {
+	font-weight: 900;
+}
+.cont_carousel h3 {
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	//margin-top: 5px;
+	padding: 0 25.5%;
+	color: white;
+}
+.displacemen_carousel2 {
+	background-color: #cccccc;
+	opacity: 0.4;
+	height: 105px;
+	width: 100%;
+}
+.shop_now {
+	width: 135px;
+	height: 55px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 0 auto;
+	margin: -28px 41%;
+	line-height: 55px;
+	text-align: center;
+}
+.prev_carousel, .next_carousel {
+	width: 375px;
+	height:40px;
+	background-color: #2a2a2a;
+	padding:13px 24%;
+}
+.prev_carousel:hover, .next_carousel:hover {
+	background-color: #d58e32;
+}
+
+#indoor_background {
+	background-image: url("../images/continut/bed8.jpg");
+	background-position: center;
+}
+#outdoor_background {
+	background-image: url("../images/continut/outdoor_furniture.jpg");
+	background-position: center;
+	background-size: cover;
+}
+#kitchen_background {
+	background-image: url("../images/continut/kitchen.jpg");
+	background-position: center;
+	background-size: cover;
+}
+.slider-img-div:hover,
+.slider-img-div:focus {
+  transform: scale(1.1);
+  transition: .5s;
+}

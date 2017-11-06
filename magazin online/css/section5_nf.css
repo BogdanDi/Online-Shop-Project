@@ -1,0 +1,384 @@
+.section5 {
+	position: relative;
+	height: auto;
+	width: 100%;
+	border: 0px solid red;
+}
+.rw {
+	margin: 30px 0px;
+}
+.shop_cart {
+	height: 413px;
+	width: 264px;
+	//border: 1px solid orange;
+	margin-right: 28px;
+    overflow: hidden;
+}
+.sus {
+    width: 264px;
+    height:264px;
+    background-color: #f4f5f7;
+    border: 3px solid #f4f5f7;
+    border-bottom: 0px;
+    position: relative;
+    /*background-size: 100% 100%;
+
+transition: background-size 2s ease-in-out;
+-moz-transition: background-size 2s ease-in-out;
+-ms-transition: background-size 2s ease-in-out;
+-o-transition: background-size 2s ease-in-out;
+-webkit-transition: background-size 2s ease-in-out;
+*/
+}
+.centru {
+    position: relative;
+    width: 264px;
+    height:80px;
+    border-width:0px 1px 0px 1px;
+    border-style: solid;
+    border-color: #f4f5f7;
+    padding: 10px;
+}
+.jos {
+    position: relative;
+    width: 264px;
+    height:69px;
+    border: 1px solid #f4f5f7;
+    border-top: 0px
+    
+}
+.btns {
+    position: absolute;
+    bottom:0px;
+    width: 100%;
+    height: 30px;
+}
+.btns div{
+    width: auto;
+    height:30px;
+    background-color: #2a2a2a;
+    margin: 0px 3px;
+    padding: 0px 5px;
+    	margin-left: 12px;
+
+    font-size: 15px;
+    font-size: 15px;
+}
+
+.but1 {
+    float: left;
+}
+.but2 {
+    right: 0px;
+    
+}
+.btns a {
+    color: white;
+    text-decoration: none;
+    //font-family: Myriad Pro;
+    text-align: center;
+    vertical-align: center;
+    line-height: 30px;
+}
+.btns a div:hover {
+    color: white;
+    background-color: #d58e32;
+}
+.but2 img{
+    height: 15px;
+}
+.art {
+	width: 100%;
+	height:auto;
+	margin:0 75px;
+}
+.art_name {
+	position: absolute;
+    text-align: center;
+    margin:0px;
+    color: #d58e32;
+    text-decoration: none;
+}
+.stars5 {
+    height:20px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 0 72px;
+}
+.line5 {
+	width: 224px;
+    padding: 0px;
+    margin: 0px 10px;
+    border: 1px solid black;
+    position: relative;
+    bottom: -18px;
+
+}
+.cursor4 {
+    position: relative;
+    bottom: -14px;
+    margin: 0px 107px;
+    border: 3px solid #d58e32;
+    width: 30px;
+}
+
+.d_left {
+    position: relative;
+    //background-color: red;
+    //margin-top: 30px;
+    //height: 40px;
+    bottom: -12px;
+    left: 3px;
+    width: 100%;
+}
+.small, .price {
+    border: 1px solid black;
+    height: 35px;
+    width: 35px;
+    position: relative;
+    display: inline-block;
+    margin: 4px;
+    float: left;
+    
+}
+
+.rw .price {
+    right: -100px;
+    margin-right: 10px;
+    width: 65px;
+    background-color: #d58e32;
+    text-decoration: none;
+    font-family: Myriad Pro;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: center;
+    line-height: 35px;
+    border-color: #d58e32;
+    top: 0px;
+}
+.small img {
+    margin: 9px;
+}
+.shop_cart:last-of-type {
+	margin-right: 0px;
+}
+
+
+.article_description {
+    display: none;
+    color: black;
+font-size: 10px;
+right: -256px;
+top: -180px;
+position: absolute;
+width: 500px;
+
+
+}
+/*#bed1 .sus {
+    background-image: url("../images/continut/bed1.jpg");
+    background-position: center;
+    background-size: cover;
+} 
+#bed2 .sus {
+    background-image: url("../images/continut/bed2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#bed3 .sus {
+    background-image: url("../images/continut/bed3.jpg");
+    background-position: center;
+    background-size: cover;
+} 
+#bed4 .sus {
+    background-image: url("../images/continut/bed4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#bed5 .sus {
+    background-image: url("../images/continut/bed5.jpg");
+    background-position: center;
+    background-size: cover;
+} 
+#bed6 .sus {
+    background-image: url("../images/continut/bed6.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#bed7 .sus {
+    background-image: url("../images/continut/bed7.jpg");
+    background-position: center;
+    background-size: cover;
+} 
+#bed8 .sus {
+    background-image: url("../images/continut/bed8.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#chair1 .sus {
+    background-image: url("../images/continut/chair1.jpg");
+    background-position: center;
+    background-size: cover;
+} 
+#chair2 .sus {
+    background-image: url("../images/continut/chair2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#chair3 .sus {
+    background-image: url("../images/continut/chair3.jpg");
+    background-position: center;
+    background-size: cover;
+} 
+#chair4 .sus {
+    background-image: url("../images/continut/chair4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#chair5 .sus {
+    background-image: url("../images/continut/chair5.jpg");
+    background-position: center;
+    background-size: cover;
+} 
+#chair6 .sus {
+    background-image: url("../images/continut/chair6.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#chair7 .sus {
+    background-image: url("../images/continut/chair7.jpg");
+    background-position: center;
+    background-size: cover;
+} 
+#chair8 .sus {
+    background-image: url("../images/continut/chair8.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#sofa1 .sus {
+    background-image: url("../images/continut/sofa1.jpg");
+    background-position: center;
+    background-size: cover;
+} 
+#sofa2 .sus {
+    background-image: url("../images/continut/sofa2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#sofa3 .sus {
+    background-image: url("../images/continut/sofa3.jpg");
+    background-position: center;
+    background-size: cover;
+} 
+#sofa4 .sus {
+    background-image: url("../images/continut/sofa4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#sofa5 .sus {
+    background-image: url("../images/continut/sofa5.jpg");
+    background-position: center;
+    background-size: cover;
+} 
+#sofa6 .sus {
+    background-image: url("../images/continut/sofa6.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#sofa7 .sus {
+    background-image: url("../images/continut/sofa7.jpg");
+    background-position: center;
+    background-size: cover;
+} 
+#sofa8 .sus {
+    background-image: url("../images/continut/sofa8.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#table1 .sus {
+    background-image: url("../images/continut/table1.jpg");
+    background-position: center;
+    background-size: cover;
+} 
+#table2 .sus {
+    background-image: url("../images/continut/table2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#table3 .sus {
+    background-image: url("../images/continut/table3.jpg");
+    background-position: center;
+    background-size: cover;
+} 
+#table4 .sus {
+    background-image: url("../images/continut/table4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#table5 .sus {
+    background-image: url("../images/continut/table5.jpg");
+    background-position: center;
+    background-size: cover;
+} 
+#table6 .sus {
+    background-image: url("../images/continut/table6.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#table7 .sus {
+    background-image: url("../images/continut/table7.jpg");
+    background-position: center;
+    background-size: cover;
+} 
+#table8 .sus {
+    background-image: url("../images/continut/table8.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#dining1 .sus {
+    background-image: url("../images/continut/dining1.jpg");
+    background-position: center;
+    background-size: cover;
+} 
+#dining2 .sus {
+    background-image: url("../images/continut/dining2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#dining3 .sus {
+    background-image: url("../images/continut/dining3.jpg");
+    background-position: center;
+    background-size: cover;
+} 
+#dining4 .sus {
+    background-image: url("../images/continut/dining4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#dining5 .sus {
+    background-image: url("../images/continut/dining5.jpg");
+    background-position: center;
+    background-size: cover;
+} 
+#dining6 .sus {
+    background-image: url("../images/continut/dining6.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#dining7 .sus {
+    background-image: url("../images/continut/dining7.jpg");
+    background-position: center;
+    background-size: cover;
+} 
+#dining8 .sus {
+    background-image: url("../images/continut/dining8.jpg");
+    background-position: center;
+    background-size: cover;
+}*/
+.shop_cart:hover .sus,
+.shop_cart:focus .sus {
+    background-size: 110% 110%;
+}

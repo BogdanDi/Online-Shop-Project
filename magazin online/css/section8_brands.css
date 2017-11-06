@@ -1,0 +1,51 @@
+
+
+.section8 {
+	position: relative;
+	height: auto;
+	width: 1140px;
+	margin: 30px 0px;
+	border: 1px solid #e2e2e2;
+	border-left: 0;
+	border-right: 0;
+}
+.brand {
+	position: relative;
+	height: 94px;
+	width: 100%;
+	margin: 24px 0;
+	overflow: hidden
+}
+.brand_wrap {
+	position: absolute;
+	width: 2000px;
+	height: 100%;
+	z-index: -1;
+}
+.brand_move_l, .brand_move_r {
+	height: 94px;
+	width: 33px;
+	background-color: #2a2a2a;
+}
+.brand_move_r {
+	//position: relative;
+	margin-right: 0px;
+	float: right;
+	z-index: 100;
+}
+.brand_spacer {
+	height: 94px;
+	width: 30px;
+}
+.brands {
+	height: 94px;
+	width: 144px;
+	border: 1px solid #e2e2e2;
+}
+.brand_move_l img, .brand_move_r img {
+	height: 16px;
+	margin: 39px 11px;
+}
+.brands img {
+	margin: 20px;
+}

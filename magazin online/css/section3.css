@@ -1,0 +1,148 @@
+
+/*section #3*/
+.section3 {
+	position: relative;
+	width: 100%;
+	height: 424px;
+	margin: 30px 0px;
+}
+.guest-room {
+	position: absolute;
+	height: 424px;
+	width: 558px;
+	border: solid 1px green;
+	left: 0px;
+	background-color: #6a6a6a;
+		overflow: hidden;
+}
+.guest-room_i {
+		position: absolute;
+
+	width: 492px;
+	height: 358px;
+	margin: 33px;
+	background-color: #505050;
+	color: white;
+	padding:20px;
+	overflow: hidden;
+}
+.guest_room_s {
+	position: absolute;
+	left: 0px;
+	top: -50px;
+	width: 492px;
+	//height: 358px;
+	opacity: 0.1;
+			overflow: hidden;
+
+}
+.guest-room:hover .guest_room_s {
+	opacity: 0.9;
+	transition: 1s;
+}
+.displacement_gr {
+	height: 140px;
+	width:100%;
+}
+.guest-room_i h3 {
+	font-size: 35px;
+	font-weight: bold;
+}
+.guest-room_i h1 {
+	font-size: 55px;
+	font-weight: 800;
+}
+.guest-room_i .discount_gr {
+	height:85px;
+	width: 160px;
+	border: 5px solid white;
+	font-size: 55px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+
+.right_room {
+	position: absolute;
+	width: 558px;
+	height: 424px;
+	right: 0px;
+}
+.right_upper {
+	width: 100%;
+	height: 197px;
+	background-color: #e8edf7;
+	margin-bottom: 30px;
+}
+.right_upper_chair {
+	width: 100%;
+	height: 100%;
+	opacity: 0.01;
+}
+.right_upper:hover .right_upper_chair {
+	opacity: 0.9;
+	transition: 1s;
+}
+
+.right_lower {
+	width: 100%;
+	height: 197px;
+	background-color: #fbf3f7;
+}
+.displ_blue {
+	width: 197px;
+	height: 197px;
+}
+.blue_div_text {
+	padding: 40px 0px;
+}
+.blue_div_text h3 {
+	font-size: 35px;
+	font-weight: 500;
+}
+.blue_div_text h3 span {
+	font-weight: 800;
+}
+.blue_div_text h5{
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding: 8px 0px;
+
+}
+.blue_div_text h1{
+	font-size: 40px;
+	font-weight: bold;
+	//letter-spacing: 2px;
+	color: #d58e32;
+}
+.displ_pink {
+	width:50%;
+	height: 100%;
+	overflow: hidden;
+}
+.displ_pink_spec {
+	height: 100%;
+	opacity: .05;
+}
+.displ_pink:hover .displ_pink_spec {
+	opacity: .9;
+	transition: 1s;
+}
+.pink_div_text {
+	margin: 75px 0px;
+}
+.pink_div_text h3 {
+	font-size: 23px;
+	font-weight: 500;
+	text-align: right;
+	color: #d58e32;
+}
+.pink_div_text h3 span {
+	font-weight: 800;
+}
+.pink_div_text h5{
+	font-size: 17px;
+	padding: 8px 0px;
+	text-align: right;
+}
